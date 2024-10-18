@@ -1,7 +1,8 @@
 MY_SOURCES = pipex.c \
 			error_handling.c \
 			validation.c \
-			
+			helpers/helpers.c \
+			bonus/pipex_bonus.c
 
 
 MY_OBJECTS = $(MY_SOURCES:.c=.o)
